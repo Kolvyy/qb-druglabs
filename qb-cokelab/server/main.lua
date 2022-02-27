@@ -15,7 +15,7 @@ QBCore.Functions.CreateCallback('qb-cokelab:server:GetData', function(source, cb
     cb(LabData)
 end)
 
-QBCore.Functions.CreateUseableItem("cokekey", function(source, item)
+QBCore.Functions.CreateUseableItem("gatecrack", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
     local LabKey = item.info.lab ~= nil and item.info.lab or 1
 
